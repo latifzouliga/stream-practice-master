@@ -379,6 +379,7 @@ public class PracticeTest {
         Assert.assertEquals("Payam", employee.getFirstName());
         Assert.assertEquals("Kaufling", employee.getLastName());
         Assert.assertEquals(122L,employee.getId().longValue());
+
     }
 
     @Test
@@ -395,6 +396,7 @@ public class PracticeTest {
                 }
             }
         }
+        employees.forEach(System.out::println);
     }
 
     @Test
